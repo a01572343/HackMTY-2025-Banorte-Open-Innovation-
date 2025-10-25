@@ -11,7 +11,7 @@ st.set_page_config(
 )
 
 # URL de nuestro Servidor MCP
-MCP_API_URL = "https://mi-mcp-server.onrender.com/"
+MCP_API_URL = "https://mi-mcp-server.onrender.com"
 
 # --- Funciones para llamar a la API ---
 
