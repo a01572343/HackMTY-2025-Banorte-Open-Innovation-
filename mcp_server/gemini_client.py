@@ -6,7 +6,7 @@ import os
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = genai.GenerativeModel('gemini-1.5-flash') # O el modelo que prefieras
+model = genai.GenerativeModel('gemini-2.5-flash') # O el modelo que prefieras
 
 def get_ai_recommendation(user_question, financial_context):
 
